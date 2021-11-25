@@ -1,7 +1,39 @@
+body{
+  margin: 10px 10px;
+  padding: 10px 10px;
+  background-color: white;
+}
+
+.about-page h2{
+  text-transform: none;
+  font-weight: bold;
+}
+.about-page{
+  display: grid;
+  gap: 2rem 4rem;
+  padding-bottom: 3rem;
+}
+.about-img{
+  border-radius: var(--border-radius);
+  height: 200px;
+
+}
+@media screen and  (min-width: 992px) {
+  .about-page{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    align-items: center;
+  }
+  .about-img{
+    height: 100%;
+  }
+};
+  
 .featured-title{
     text-align: center;
      text-size-adjust: 35px;
 }
+.img about-img
 .recipes-container {
     display: grid;
     gap: 2rem 1rem;
